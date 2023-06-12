@@ -7,6 +7,8 @@ import Ex3 from './components/Ex3'
 import Ex4 from './components/Ex4'
 import Ex5 from './components/Ex5'
 import Ex6 from './components/Ex6'
+import Ex7 from './components/Ex7'
+import Ex8 from './components/Ex8'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path={`/ex4`} element={<Ex4/>}></Route>
           <Route path={`/ex5`} element={<Ex5/>}></Route>
           <Route path={`/ex6`} element={<Ex6/>}></Route>
+          <Route path={`/ex7`} element={<Ex7/>}></Route>
+          <Route path={`/ex8`} element={<Ex8/>}></Route>
           <Route path={`/*`} element={<Ex1/>}></Route>
        </Routes>
     </BrowserRouter>
